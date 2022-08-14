@@ -9,7 +9,7 @@ import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 
 @RunWith(Parameterized.class)
-public class QuestionTest extends BaseTest {
+public class QuestionTest extends BaseTestClass {
     final private String questionText;
     private String answerText;
     final private String expectedText;
